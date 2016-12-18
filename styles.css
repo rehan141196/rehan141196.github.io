@@ -5,6 +5,9 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
 
 #header-nav {
   background-color: #f6b319;
@@ -13,7 +16,7 @@ body {
 }
 
 #logo-img {
-  background: url('https://github.com/rehan141196/rehan141196.github.io/blob/master/Rehan.jpg?raw=true') no-repeat;
+  background: url('Rehan.jpg') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -23,7 +26,7 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 {
+.navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1.5em;
