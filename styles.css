@@ -10,6 +10,15 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 1em;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
 #header-nav h1 {
   padding-top: 25px;
   text-align: center;
@@ -67,7 +76,43 @@ img.ucla {
   border: 2px solid #3F0C1F;
   margin-top: 30px;
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 50px;
   vertical-align: text-top;
   background-image: url("background.jpg");
+}
+
+#menu-tile, #specials-tile {
+  margin-top: 30px;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('ucla.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('ucla.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
 }
