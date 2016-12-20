@@ -1,11 +1,12 @@
 head {
-	background-image: url("background.jpg") no-repeat;
+	background-image: url("background.jpg");
 }
 
 body {
   font-size: 16px;
   color: #fff;
   background-image: url("background.jpg");
+  background-repeat: inherit;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -27,12 +28,12 @@ body {
 
 
 #header-nav {
-  background-image: url("background.jpg");
+  background-repeat: inherit;
   border-radius: 0;
   border: 0;
 }
 
-IMG.displayed {
+img.rehan {
   align-content: center;
   display: block;
   margin-left: auto;
@@ -40,6 +41,14 @@ IMG.displayed {
   width: 350px;
   height: 350px;
   margin-top: 20px;
+}
+
+img.ucla {
+  margin-top: 25px;
+  margin-right: 250px;
+  float: right;
+  width: 200px;
+  height: 100px;
 }
 
 #phone {
