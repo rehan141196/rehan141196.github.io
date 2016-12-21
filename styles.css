@@ -116,3 +116,8 @@ img.ucla {
   color: #fff;
   opacity: .8;
 }
+
+#coursework-headers h4 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
