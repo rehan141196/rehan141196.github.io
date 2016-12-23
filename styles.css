@@ -10,6 +10,10 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+a {
+	color: #FFFFFF;
+}
+
 li {
   list-style-type: disc;
   list-style-position: inside;
@@ -120,4 +124,8 @@ img.ucla {
 #coursework-headers h4 {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+#skills-headers h4 {
+	margin-top: 50px;
 }
