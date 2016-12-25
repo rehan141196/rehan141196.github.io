@@ -85,7 +85,7 @@ img.ucla {
   background-image: url("background.jpg");
 }
 
-.container .jumbotron iframe {
+.container .jumbotron iframe, .container .jumbotron img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
