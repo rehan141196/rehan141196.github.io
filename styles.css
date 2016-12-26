@@ -29,7 +29,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Lora', serif;
-  color: #00CED1;
+  color: #FFFFFF;
   font-size: 3em;
   text-transform: uppercase;
   font-weight: bold;
@@ -98,7 +98,7 @@ img.ucla {
 	margin-bottom: 30px;
 }
 
-#menu-tile, #specials-tile {
+#coursework-tile, #skills-tile, #hobbies-tile {
   margin-top: 30px;
   height: 200px;
   width: 100%;
@@ -108,20 +108,29 @@ img.ucla {
   overflow: hidden;
 }
 
-#menu-tile:hover, #specials-tile:hover {
+#coursework-tile:hover, #skills-tile:hover, #hobbies-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#menu-tile {
-  background: url('ucla.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('ucla.jpg') no-repeat;
+#coursework-tile {
+  background: url(coursework.jpg);
+  background-size: cover;
   background-position: center;
 }
 
-#menu-tile span, #specials-tile span {
+#skills-tile {
+  background: url(skills.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#hobbies-tile {
+  background: url(hobbies.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#coursework-tile span, #skills-tile span, #hobbies-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
