@@ -1,32 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AIAA</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+<head>
+	<title>AIAA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
 <body>
-  <header>
-    <nav id="header-nav">
-      <h1><a href="index.html">Rehan Shah</a></h1>
-      <span id="phone" class="hidden-xs">
-        <div>E-mail: rehankshah14@gmail.com</div>
-        <div>Phone: 909-859-9301</div>
-      </span>
-   </nav>
-  </header>
-  <div id="main-content" class="container">
-    <div class="jumbotron">
-      <h3>Model Aircraft Work with AIAA</h3>
-      <img src="uas.jpg" width="560" height="315">
-        <div id="mult-paras">Since my freshman year at UCLA I have been part of the Electronics team of the UAS (Unmanned Aerial Systems) project of AIAA (American Institute of Aeronautics and Astronautics). The goal of the UAS team is to build a spy plane for the AUVSI SUAS competition. The plane should be capable of autonomous flight as well as performance of certain basic tasks such as taking images of the ground and recognizing patterns in the images taken.</div>
-        <div id="mult-paras">The electronics team, which I am a part of, is responsible for a variety of duties. We make sure that all the control surfaces work properly and can interface with our RC controller through the receiver. We are responsible for the autopilot as well, making sure that the switch between the RC controller and the autopilot is smooth. We also determine the power requirements of the plane - how many batteries we require and how the power should be distributed between the various components of the airplane.</div>
-    </div>
-  </div>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1><a href="index.html">Rehan Shah</a></h1>
+					<h2 class="w3ls-bnrtext">rehankshah14@gmail.com</h2>
+					<a href="https://www.linkedin.com/in/rehankshah/"><h2 class="w3ls-bnrtext">Linkedin.com/in/rehankshah</h2></a>
+					<!-- <p class="w3ls-p">rehankshah14@gmail.com</p> -->
+					<!-- <a href="#about" class="buy btn-wayra scroll">Explore my work</a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">Model Aircraft Work with AIAA</h3>
+			<div class="agileits-about-grid">
+				<img src="images/uas.jpg" width="560" height="315">
+				<p>&nbsp;</p>
+				<p>Since my freshman year at UCLA I have been part of the Electronics team of the UAS (Unmanned Aerial Systems) project of AIAA (American Institute of Aeronautics and Astronautics). The goal of the UAS team is to build a spy plane for the AUVSI SUAS competition. The plane should be capable of autonomous flight as well as performance of certain basic tasks such as taking images of the ground and recognizing patterns in the images taken.</p>
+				<p>The electronics team, which I am a part of, is responsible for a variety of duties. We make sure that all the control surfaces work properly and can interface with our RC controller through the receiver. We are responsible for the autopilot as well, making sure that the switch between the RC controller and the autopilot is smooth. We also determine the power requirements of the plane - how many batteries we require and how the power should be distributed between the various components of the airplane.</p>
+			</div>
+		</div>
+	</div>
+	<div class="agileits_w3layouts-footer">
+		<p>© 2017 Designer. All rights reserved | Design by <a href="http://w3layouts.com"> W3layouts.</a></p>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
